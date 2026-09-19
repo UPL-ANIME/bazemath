@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mock Test — mock_1789839849</title>
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(', '\\)'], ['$', '$']],
+    displayMath: [['\\[', '\\]'], ['$$', '$$']],
+    processEscapes: true
+  },
+  svg: { fontCache: 'global' }
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
+<style>
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+        background: #ffffff;
+    }
+    body {
+        font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+        background: #ffffff;
+        min-height: 100vh;
+        padding: 20px 10px;
+        color: #2c3e50;
+    }
+    .container {
+        width: 210mm;
+        min-height: 297mm;
+        max-width: 210mm;
+        margin: 0 auto;
+        background: #ffffff;
+        border-radius: 0;
+        box-shadow: 0 0 15px rgba(0,0,0,0.08);
+        overflow: hidden;
+        animation: fadeIn 0.6s ease;
+    }
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to   { opacity: 1; transform: translateY(0); }
+    }
+    .header {
+        background: linear-gradient(135deg, #1e3c72 0%, #6a3093 100%);
+        color: #fff;
+        padding: 35px 40px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+    }
+    .header::before {
+        content: "";
+        position: absolute;
+        top: -50%; left: -50%;
+        width: 200%; height: 200%;
+        background: radial-gradient(circle, rgba(255,255,255,0.08) 0%, transparent 70%);
+        animation: shine 8s linear infinite;
+    }
+    @keyframes shine {
+        from { transform: rotate(0deg); }
+        to   { transform: rotate(360deg); }
+    }
+    .header h1 {
+        font-size: 28px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        position: relative;
+        z-index: 1;
+    }
+    .header .subtitle {
+        font-size: 14px;
+        opacity: 0.85;
+        margin-top: 8px;
+        position: relative;
+        z-index: 1;
+    }
+    .info-bar {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 18px 40px;
+        background: #f4f6fb;
+        border-bottom: 1px solid #e1e6f0;
+        font-size: 13px;
+        color: #555;
+    }
+    .info-bar span {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+    }
+    .info-bar .badge {
+        background: #1e3c72;
+        color: #fff;
+        padding: 4px 12px;
+        border-radius: 20px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .content { padding: 30px 40px 40px; background: #ffffff; }
+
+    .question {
+        background: #fafbfe;
+        border-left: 5px solid #6a3093;
+        border-radius: 12px;
+        padding: 20px 22px;
+        margin-bottom: 22px;
+        transition: transform 0.2s, box-shadow 0.2s;
+        animation: slideIn 0.4s ease backwards;
+    }
+    .question:hover {
+        transform: translateX(4px);
+        box-shadow: 0 8px 20px rgba(106,48,147,0.12);
+    }
+    @keyframes slideIn {
+        from { opacity: 0; transform: translateX(-15px); }
+        to   { opacity: 1; transform: translateX(0); }
+    }
+    .q-title {
+        font-size: 16px;
+        font-weight: 700;
+        color: #1e3c72;
+        margin-bottom: 12px;
+        line-height: 1.5;
+    }
+    .q-title .num {
+        display: inline-block;
+        background: linear-gradient(135deg, #6a3093, #a044ff);
+        color: #fff;
+        width: 30px; height: 30px;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 14px;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+    .options {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .option {
+        background: #fff;
+        border: 2px solid #e1e6f0;
+        border-radius: 10px;
+        padding: 10px 14px;
+        font-size: 14px;
+        color: #444;
+        transition: all 0.2s;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .option:hover {
+        border-color: #6a3093;
+        background: #f8f4ff;
+    }
+    .option .letter {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 26px; height: 26px;
+        background: #1e3c72;
+        color: #fff;
+        border-radius: 50%;
+        font-size: 13px;
+        font-weight: 700;
+        flex-shrink: 0;
+    }
+    .options.six {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .group-label {
+        background: linear-gradient(135deg, #6a3093, #a044ff);
+        color: #fff;
+        padding: 8px 16px;
+        border-radius: 8px;
+        font-size: 15px;
+        font-weight: 700;
+        display: inline-block;
+        margin-bottom: 14px;
+    }
+    .sub-q {
+        font-size: 14px;
+        color: #333;
+        margin: 8px 0;
+        padding-left: 8px;
+        line-height: 1.5;
+    }
+    .sub-q .idx {
+        font-weight: 700;
+        color: #6a3093;
+        margin-right: 6px;
+    }
+    .open-block {
+        background: #fff;
+        border: 2px dashed #a044ff;
+        border-radius: 10px;
+        padding: 14px 18px;
+        margin-top: 12px;
+    }
+    .open-block .sub {
+        font-size: 14px;
+        color: #333;
+        margin: 6px 0;
+        line-height: 1.5;
+    }
+    .footer {
+        text-align: center;
+        padding: 20px;
+        font-size: 12px;
+        color: #888;
+        background: #f4f6fb;
+        border-top: 1px solid #e1e6f0;
+    }
+    @media (max-width: 640px) {
+        .container { width: 100%; max-width: 100%; min-height: auto; }
+        .content { padding: 20px; }
+        .info-bar { padding: 14px 20px; }
+        .header { padding: 25px 20px; }
+        .header h1 { font-size: 22px; }
+        .options { grid-template-columns: 1fr; }
+        .options.six { grid-template-columns: 1fr 1fr; }
+    }
+    @page {
+        size: A4;
+        margin: 15mm;
+    }
+    @media print {
+        html, body { background: #fff; padding: 0; }
+        .container {
+            width: 100%;
+            max-width: 100%;
+            min-height: auto;
+            box-shadow: none;
+            border-radius: 0;
+        }
+        .question { page-break-inside: avoid; }
+    }
+    
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+<h1>📘 Mock Test</h1>
+<div class="subtitle">Test ID: mock_1789839849</div>
+</div>
+<div class="info-bar">
+<span>📅 <strong>19.09.2026 20:44</strong></span>
+<span>📝 Savollar soni: <strong>43</strong></span>
+<span class="badge">ID: mock_1789839849</span>
+</div>
+<div class="content">
+<div class="question">
+<div class="q-title"><span class="num">1</span>1. 666... 66 + 555... 55 ni hisoblang.
+50 ta 50 ta
+A) 1222...2221 / 49 (49 ta)
+B) 1222...2221 / 50 ta
+C) 2222...2221 / 49 (49 ta)
+D) 2222...2221 / 50 ta</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>A) variant</span></div>
+<div class="option"><span class="letter">B</span><span>B) variant</span></div>
+<div class="option"><span class="letter">C</span><span>C) variant</span></div>
+<div class="option"><span class="letter">D</span><span>D) variant</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">2</span>Hisoblang. (3,14-5\frac{3}{10}):1\frac{2}{5}-(\frac{3}{4}-2\frac{1}{3})</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>0,040</span></div>
+<div class="option"><span class="letter">B</span><span>0,045</span></div>
+<div class="option"><span class="letter">C</span><span>0,036</span></div>
+<div class="option"><span class="letter">D</span><span>0,050</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">3</span>Oralaridagi masofa 340 km bo‘lgan A va B shaharlaridan bir vaqtning o‘zida bir-biriga qarab motosiklchi va velosipedchi yo‘lga chiqdi. Velosipedchi yo‘lda 10 daqiqa dam olib motosiklchi tomon yo‘lni davom ettirdi. Motosiklchi esa soatiga 60 km tezlik bilan, velosipedchi esa soatiga 15 km tezlik bilan harakatlandi. Ular uchrashgan paytda motosiklchining bosib o'tgan masofasini (km) toping.</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>260</span></div>
+<div class="option"><span class="letter">B</span><span>274</span></div>
+<div class="option"><span class="letter">C</span><span>280</span></div>
+<div class="option"><span class="letter">D</span><span>300</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">4</span>4. To'g'ri burchakli uchburchakning gipotenuzasi 3√5 ga teng. Agar uning bir kateti 133_1/3% ikkinchi kateti esa 16_2/3% ga oshirilsa, hosil boʻIgan katetlar yig'indisi 14 ga teng bo'ladi. Uchburchakning yuzini toping.
+A) 9
+B) 12
+C) 8
+D) 15</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>A) variant</span></div>
+<div class="option"><span class="letter">B</span><span>B) variant</span></div>
+<div class="option"><span class="letter">C</span><span>C) variant</span></div>
+<div class="option"><span class="letter">D</span><span>D) variant</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">5</span>Hisoblang. \(\left(\frac{2}{5}\right)^{-3}\) \times \(0.125^{-1}\)</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>125</span></div>
+<div class="option"><span class="letter">B</span><span>120</span></div>
+<div class="option"><span class="letter">C</span><span>130</span></div>
+<div class="option"><span class="letter">D</span><span>100</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">6</span>6. Hisoblang.
+√(666666^2 / 12345654321)
+A) 1
+B) 6
+C) 5
+D) 12</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>A) variant</span></div>
+<div class="option"><span class="letter">B</span><span>B) variant</span></div>
+<div class="option"><span class="letter">C</span><span>C) variant</span></div>
+<div class="option"><span class="letter">D</span><span>D) variant</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">7</span>Hisoblang. \sqrt[4]{81} \cdot \sqrt[3]{8} + \sqrt{4} \cdot \sqrt[3]{27}</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>10</span></div>
+<div class="option"><span class="letter">B</span><span>12</span></div>
+<div class="option"><span class="letter">C</span><span>14</span></div>
+<div class="option"><span class="letter">D</span><span>16</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">8</span>Arifmetik progressiyada \( a_{3} = a_{1} + a_{2} \) va \( a_{1} \cdot a_{2} \cdot a_{3} = 750 \) bo'lsa, \( S_{10} \) ni toping.</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>275</span></div>
+<div class="option"><span class="letter">B</span><span>260</span></div>
+<div class="option"><span class="letter">C</span><span>285</span></div>
+<div class="option"><span class="letter">D</span><span>300</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">9</span>9. Kamayuvchi geometrik progressiyada b1 + b2 + b3 = 19 va b1^2 + b2^2 + b3^2 = 133 bo'lsa, dastlabki beshta hadi yig'indisini hisoblang.
+A) 23_2/9
+B) 23_4/9
+C) 23_1/7
+D) 22_7/9</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>A) variant</span></div>
+<div class="option"><span class="letter">B</span><span>B) variant</span></div>
+<div class="option"><span class="letter">C</span><span>C) variant</span></div>
+<div class="option"><span class="letter">D</span><span>D) variant</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">10</span>10. Agar x/y = 4 va y ≠ -3/5 bo'lsa, (x+y+3)/(x+6y+6) ning qiymatini toping.
+A) 1
+B) 1/2
+C) 1/3
+D) 1/4</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>A) variant</span></div>
+<div class="option"><span class="letter">B</span><span>B) variant</span></div>
+<div class="option"><span class="letter">C</span><span>C) variant</span></div>
+<div class="option"><span class="letter">D</span><span>D) variant</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">11</span>11. Soddalashtiring.
+((1/x + 1/y + 1/xy)(x + y - 1)) / (1/x^2 + 1/y^2 + 2/xy - 1/(x^2 * y^2))
+A) xy
+B) 1/xy
+C) 1/(x^2 * y^2)
+D) x^2 * y^2</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>A) variant</span></div>
+<div class="option"><span class="letter">B</span><span>B) variant</span></div>
+<div class="option"><span class="letter">C</span><span>C) variant</span></div>
+<div class="option"><span class="letter">D</span><span>D) variant</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">12</span>Agar cos \beta = \frac{5}{13} (0 &lt; \beta &lt; \pi/2) va p = sin \beta, q = tan \beta, r = cot \beta bo'lsa, p, q, r larni o'sish tartibida joylashtiring.</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>p &lt; q &lt; r</span></div>
+<div class="option"><span class="letter">B</span><span>q &lt; p &lt; r</span></div>
+<div class="option"><span class="letter">C</span><span>r &lt; p &lt; q</span></div>
+<div class="option"><span class="letter">D</span><span>p &lt; r &lt; q</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">13</span>Agar \(\sin \alpha - \sqrt{3} \cdot \sin \beta = 0\) va \(\alpha + 2\beta = 180^{\circ}\) bo'lsa, \(|\alpha - \beta|\) ning qiymatini toping.</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>30^{\circ}</span></div>
+<div class="option"><span class="letter">B</span><span>45^{\circ}</span></div>
+<div class="option"><span class="letter">C</span><span>60^{\circ}</span></div>
+<div class="option"><span class="letter">D</span><span>90^{\circ}</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">14</span>14. Tenglamaning haqiqiy ildizlari yig'indisini hisoblang.
+4^(x^2-x) - 17 * 2^(x^2-x+2) + 256 = 0
+A) 2
+B) -2
+C) 0
+D) 1</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>A) variant</span></div>
+<div class="option"><span class="letter">B</span><span>B) variant</span></div>
+<div class="option"><span class="letter">C</span><span>C) variant</span></div>
+<div class="option"><span class="letter">D</span><span>D) variant</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">15</span>15. Tenglamaning haqiqiy ildizlar ko'paytmasini toping. (Agar u bitta bo'lsa, shu ildizini toping).
+2/3 - log_x(3) = log_3(2) * log_32(x) - 2/5 * log_√x(3)
+A) ³√3
+B) 9³√3
+C) 27³√3
+D) 27</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>A) variant</span></div>
+<div class="option"><span class="letter">B</span><span>B) variant</span></div>
+<div class="option"><span class="letter">C</span><span>C) variant</span></div>
+<div class="option"><span class="letter">D</span><span>D) variant</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">16</span>16. Tenglama nechta butun yechimga ega?
+x^4 - (2027! / (2026! + 2025!)) * x^2 + 2025 = 0
+A) 1 ta
+B) 2 ta
+C) 3 ta
+D) 4 ta</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>A) variant</span></div>
+<div class="option"><span class="letter">B</span><span>B) variant</span></div>
+<div class="option"><span class="letter">C</span><span>C) variant</span></div>
+<div class="option"><span class="letter">D</span><span>D) variant</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">17</span>17. Tenglama nechta butun yechimga ega?
+x^4 - √(|x| - 45) = 2025^2
+A) 1 ta
+B) 2 ta
+C) 3 ta
+D) 4 ta</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>A) variant</span></div>
+<div class="option"><span class="letter">B</span><span>B) variant</span></div>
+<div class="option"><span class="letter">C</span><span>C) variant</span></div>
+<div class="option"><span class="letter">D</span><span>D) variant</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">18</span>18. Tengsizlik nechta butun yechimga ega?
+(x^2 - 7|x| + 10) / (x^2 - 6x + 9) &lt; 0
+A) 1 ta
+B) 2 ta
+C) 3 ta
+D) 4 ta</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>A) variant</span></div>
+<div class="option"><span class="letter">B</span><span>B) variant</span></div>
+<div class="option"><span class="letter">C</span><span>C) variant</span></div>
+<div class="option"><span class="letter">D</span><span>D) variant</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">19</span>Quyidagi tengsizlikni qanoatlantiruvchi butun sonlar nechta? \( \sqrt{x^{2} - 6x + 9} - 4 \sqrt{3 - x} - 5 &lt; 0 \)</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>24</span></div>
+<div class="option"><span class="letter">B</span><span>25</span></div>
+<div class="option"><span class="letter">C</span><span>26</span></div>
+<div class="option"><span class="letter">D</span><span>27</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">20</span>Rasmda \( f(x)=ax^{2}+bx+c \) funksiyasi grafigi tasvirlangan. Parabola uchining koordinatalari \( (-2;4) \) va Oy o\'qini \( (0; -\\frac{3}{2}) \) nuqtada kesib o'tadi. \( f(10) \) ning qiymatini toping.</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>-194</span></div>
+<div class="option"><span class="letter">B</span><span>-200</span></div>
+<div class="option"><span class="letter">C</span><span>-188</span></div>
+<div class="option"><span class="letter">D</span><span>-182</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">21</span>Integralni hisoblang. \(\int_{-1}^{1} \frac{x^{2}}{x^{2}+1}\,dx\)</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>\(2 - \frac{\pi}{2}\)</span></div>
+<div class="option"><span class="letter">B</span><span>\(-2 - \frac{\pi}{2}\)</span></div>
+<div class="option"><span class="letter">C</span><span>\(-2 + \frac{\pi}{2}\)</span></div>
+<div class="option"><span class="letter">D</span><span>0</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">22</span>22. Agar 3(3x + 4)^20 = C0*x^20 + C1*x^19 + C2*x^18 + ... + C19*x + C20 tenglik o'rinli bo'lsa, 20*19*C0 + 19*18*C1 + 18*17*C2 - ... - 3*2*C17 + C18 ni hisoblang.
+A) 9360
+B) 10260
+C) 11260
+D) 10620</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>A) variant</span></div>
+<div class="option"><span class="letter">B</span><span>B) variant</span></div>
+<div class="option"><span class="letter">C</span><span>C) variant</span></div>
+<div class="option"><span class="letter">D</span><span>D) variant</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">23</span>Aylananing perimetri \(12\) ga teng, u \(60^\circ\) li yoyni tortib tursa, radiusini toping.</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>\frac{6}{\pi}</span></div>
+<div class="option"><span class="letter">B</span><span>\frac{12}{\pi}</span></div>
+<div class="option"><span class="letter">C</span><span>\frac{3}{\pi}</span></div>
+<div class="option"><span class="letter">D</span><span>2</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">24</span>Quyidagi grafiklardan nechtasi funksiyani ifodalaydi? [Rasm tavsifi: Dekart koordinatalar tekisligida 1, 2, 3 va 4 raqamlari bilan belgilangan to'rtta grafik keltirilgan. 1‑grafikda markazda \( (0,0) \) nuqtada radiusi 2 bo‘lgan doira, 2‑grafikda Ox o‘qiga parallel, chap tomonga ochilgan parabola \( x = -y^{2} \) ko‘rinishida, 3‑grafikda chiziq \( y = x \) (to‘g‘ri chiziq), 4‑grafikda sinusoid \( y = \sin x \) ko‘rinishida egri chiziq tasvirlangan. Har bir grafik uchun vertikal chiziq testini qo‘llash maqsadida koordinata o‘qlari yaqqol chizilgan].</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>1</span></div>
+<div class="option"><span class="letter">B</span><span>2</span></div>
+<div class="option"><span class="letter">C</span><span>3</span></div>
+<div class="option"><span class="letter">D</span><span>hammasi</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">25</span>ABC to'g'ri burchakli uchburchakda, B nuqtadagi to'g'ri burchak bissektrisasi AC gipotenuzani \sqrt{10} va 3\sqrt{10} uzunlikdagi segmentlarga ajratsa, uchburchakning yuzini toping.</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>24</span></div>
+<div class="option"><span class="letter">B</span><span>18</span></div>
+<div class="option"><span class="letter">C</span><span>30</span></div>
+<div class="option"><span class="letter">D</span><span>12</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">26</span>26. ABC uchburchakning A va B uchlaridan AD va BE bissektrisalar tushirildi. BE va AD bissektrisalar K nuqtada kesishadi. Agar AB = 6, AE = 4 va EC = 8 bo'lsa, KDCE to'rtburchak yuzini toping. [Rasm tavsifi: Chizmada ixtiyoriy ABC uchburchagi tasvirlangan. A uchidan chiqib BC tomonini D nuqtada kesuvchi AD bissektrisasi (α burchaklar bilan belgilangan) va B uchidan chiqib AC tomonini E nuqtada kesuvchi BE bissektrisasi (β burchaklar bilan belgilangan) chizilgan. Ular uchburchak ichidagi K nuqtada kesishadi. Kesmalardan AB tomoni 6 ga, AE kesmasi 4 ga va EC kesmasi 8 ga tengligi chizmada raqamlar bilan ko'rsatilgan. Masalaning maqsadi hosil bo'lgan KDCE to'rtburchagining yuzini hisoblashdan iborat].
+A) 26√15 / 5
+B) 12√15 / 5
+C) 24√15 / 5
+D) 13√15 / 5</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>A) variant</span></div>
+<div class="option"><span class="letter">B</span><span>B) variant</span></div>
+<div class="option"><span class="letter">C</span><span>C) variant</span></div>
+<div class="option"><span class="letter">D</span><span>D) variant</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">27</span>27. ABCD trapetsiyaning BC va AD asoslari mos ravishda 7 va 27 ga, AB va CD yon tomonlari esa mos ravishda 12 va 16 ga teng bo'lsa, ABCD trapetsiya yuzini toping. [Rasm tavsifi: Chizmada standart ABCD trapetsiyasi tasvirlangan. Trapetsiyaning yuqori BC asosi ustiga 7 raqami, pastki AD asosi ostiga esa umumiy uzunligi 27 ekanligi ko'rsatilgan. Chap yon tomoni AB yoniga 12 raqami va o'ng yon tomoni CD yoniga 16 raqami yozib qo'yilgan. Shakl ixtiyoriy, balandliklari chizilmagan, lekin tomonlar o'lchami geometrik munosabatlarni aniqlash uchun to'liq keltirilgan].
+A) 163_1/5
+B) 162_1/5
+C) 161_1/5
+D) 160_1/5</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>A) variant</span></div>
+<div class="option"><span class="letter">B</span><span>B) variant</span></div>
+<div class="option"><span class="letter">C</span><span>C) variant</span></div>
+<div class="option"><span class="letter">D</span><span>D) variant</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">28</span>28. Muntazam n burchakning eng kichik diagonallari orasidagi burchak 120° ga teng bo'lsa, muntazam n burchakning nechta tomoni bor.
+A) 10
+B) 12
+C) 8
+D) 16</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>A) variant</span></div>
+<div class="option"><span class="letter">B</span><span>B) variant</span></div>
+<div class="option"><span class="letter">C</span><span>C) variant</span></div>
+<div class="option"><span class="letter">D</span><span>D) variant</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">29</span>29. ABC uchburchak dekart koordinatalar sistemasiga joylashtirildi. Uchburchak uchlarining koordinatalari A(1;3), B(5;1), C(4;4) ga teng bo'lsa, bunda AL bissektrisa uzunligini toping. [Rasm tavsifi: Dekart koordinatalar tekisligida joylashgan ABC uchburchagi grafigi berilgan. Uchburchakning uchlari koordinata nuqtalari bilan belgilangan: A uchi birinchi chorakda (1;3) nuqtada, B uchi (5;1) nuqtada va C uchi (4;4) nuqtada joylashgan. A uchidan chiqib, qarshisidagi BC tomonini L nuqtada kesib o'tuvchi AL bissektrisasi chizilgan bo'lib, A burchakning teng ikkiga bo'linganligi yoylar va shtrixlar bilan ko'rsatilgan].
+A) √(40-10√2)
+B) √(40-20√2)
+C) √(30-15√2)
+D) √(30-10√2)</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>A) variant</span></div>
+<div class="option"><span class="letter">B</span><span>B) variant</span></div>
+<div class="option"><span class="letter">C</span><span>C) variant</span></div>
+<div class="option"><span class="letter">D</span><span>D) variant</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">30</span>30. Muntazam to'rtburchakli piramidaning to'la sirtining yuzi asosining yuzidan 3 marta katta bo'lsa, yon yog'i bilan asos tekisligi orasidagi burchak tangensini toping.
+A) 1/2
+B) 1/√3
+C) √3
+D) 1</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>A) variant</span></div>
+<div class="option"><span class="letter">B</span><span>B) variant</span></div>
+<div class="option"><span class="letter">C</span><span>C) variant</span></div>
+<div class="option"><span class="letter">D</span><span>D) variant</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">31</span>A = {84 ning natural bo'luvchilari}, B = {126 ning natural bo'luvchilari} bo'lsa, A ∩ B ning qism to'plamlar sonini toping.</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>128</span></div>
+<div class="option"><span class="letter">B</span><span>256</span></div>
+<div class="option"><span class="letter">C</span><span>512</span></div>
+<div class="option"><span class="letter">D</span><span>1024</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">32</span>Raqamlar yig'indisi 8 ga teng bo‘lgan uch xonali sonlar qog‘ozchalarga yozilgan. Bulardan tasodifiy tanlangan son juft son bo‘lish ehtimolligini toping.</div>
+<div class="options">
+<div class="option"><span class="letter">A</span><span>\frac{5}{9}</span></div>
+<div class="option"><span class="letter">B</span><span>\frac{4}{9}</span></div>
+<div class="option"><span class="letter">C</span><span>\frac{2}{9}</span></div>
+<div class="option"><span class="letter">D</span><span>\frac{7}{9}</span></div>
+</div>
+</div>
+<div class="question">
+<div class="group-label">🔗 33–35. Moslashtirish topshirig'i</div>
+<div class="sub-q"><span class="idx">33.</span>Bir konusning ichiga maksimal hajmda joylashtirilgan silindrning asos radiusini konusning asos radiusiga nisbatan toping.</div>
+<div class="sub-q"><span class="idx">34.</span>Ushbu maksimal hajmli silindrning balandligini konusning balandligiga nisbatan toping.</div>
+<div class="sub-q"><span class="idx">35.</span>Maksimal hajmli silindrning hajmini konus hajmiga nisbatan toping.</div>
+<div class="options six">
+<div class="option"><span class="letter">A</span><span>1/3</span></div>
+<div class="option"><span class="letter">B</span><span>2/3</span></div>
+<div class="option"><span class="letter">C</span><span>1</span></div>
+<div class="option"><span class="letter">D</span><span>3/4</span></div>
+<div class="option"><span class="letter">E</span><span>2/9</span></div>
+<div class="option"><span class="letter">F</span><span>4/9</span></div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">36</span>36. Tenglamalar sistemasini yeching.
+{26x^2 + 42xy + 17y^2 = 10
+{10x^2 + 18xy + 8y^2 = 6
+a) Tenglamalar sistemasi yechimi (x1; y1), (x2; y2),..., (xn; yn) bo’lsa, tenglamalar sistemasi nechta yechimga ega?
+b) xn + yn ning eng katta qiymatini toping.</div>
+<div class="open-block">
+<div class="sub">a) topshiriq</div>
+<div class="sub">b) topshiriq</div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">37</span>37. Tenglamani yeching.
+sin^3(x) + sin^3(2x) + sin^3(3x) = (sin(x) + sin(2x) + sin(3x))^3
+a) Tenglamaning eng kichik musbat ildizini toping.
+b) Tenglama [-π; π] oraliqda nechta ildizga ega?</div>
+<div class="open-block">
+<div class="sub">a) topshiriq</div>
+<div class="sub">b) topshiriq</div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">38</span>f(x)=\frac{p x+q}{r x+s} funksiyasi \( ( -2 ; 1 ) \) nuqtadan o'tadi, uning qiymatlar sohasi \( E(y)=(-\infty ; -1) \cup (-1 ; \infty) \) va f(x)=f^{-1}(x) ga teng bo'lsa:</div>
+<div class="open-block">
+<div class="sub">a) f(x) funksiyasining aniqlanish sohasiga kiritilmagan sonni toping.</div>
+<div class="sub">b) f^{-1}(-4) ning qiymatini toping.</div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">39</span>39. f(x) = x^2/8 - 3x/2 kvadrat funksiya va x^2 - 18x + y^2 - 12y + 97 = 0 aylana tenglamasi berilgan.
+a) Aylana markazi va parabola uchi orasidagi masofani d1 toping.
+b) Paraboladan aylangacha eng qisqa masofa d2 ni toping. [Rasm tavsifi: Dekart koordinatalar sistemasida tarmoqlari yuqoriga qaragan, uchi to'rtinchi chorakda joylashgan f(x) = x^2/8 - 3x/2 funksiyasiga tegishli parabola tasvirlangan. Parabolaning teparoq qismida (birinchi chorakda) markazi (9; 6) bo'lgan va radiusi aniqlanishi kerak bo'lgan aylana chizilgan. Grafikda parabola uchidan aylana markazigacha bo'lgan masofa d1 to'g'ri chiziq kesmasi orqali, hamda parabolaning eng yaqin nuqtasidan aylananing chekka chizig'igacha bo'lgan eng qisqa masofa d2 kesma orqali yaqqol ko'rsatilgan].</div>
+<div class="open-block">
+<div class="sub">a) topshiriq</div>
+<div class="sub">b) topshiriq</div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">40</span>40. f(x) = -2x^2 + 4x va g(x) = x^2 + px + q funksiyalar kesishishidan hosil bo’lgan soha yuzi 32/27 ga teng. Agar x = 4/3 to’g’ri chiziq chegaralangan sohani teng ikkiga ajratsa:
+a) f(x) va g(x) funksiyalar kesishish nuqtalari absissalari yig’indisini toping.
+b) p * q ning qiymatini toping.</div>
+<div class="open-block">
+<div class="sub">a) topshiriq</div>
+<div class="sub">b) topshiriq</div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">41</span>41. ABC uchburchakka aylana ichki chizilgan. ABC uchburchakning A uchidan AD bissektrisa o’tkazildi. BC tomoniga parallel va aylana markazidan o’tuvchi EF kesma o’tkazilgan. Agar BC = 30, EB = 8 va FC = 12 bo’lsa:
+a) DC kesma uzunligini toping.
+b) AB va AC tomonlari ayirmasi modulini toping. [Rasm tavsifi: Geometrik chizmada ichki chizilgan aylanaga ega yirik ABC uchburchagi tasvirlangan. Aylananing markazi O nuqta deb belgilangan. O nuqtadan o'tuvchi va uchburchakning pastki BC asosiga parallel bo'lgan EF kesmasi o'tkazilgan (bunda E nuqta AB tomonda, F nuqta esa AC tomonda yotadi). Chizmada EB kesmasi yoniga 8 raqami va FC kesmasi yoniga 12 raqami yozilgan. Shuningdek, A uchidan chiqib BC tomonini D nuqtada kesib o'tuvchi AD bissektrisasi chizilgan va u ham ichki chizilgan aylananing markazi O nuqtadan o'tishi ko'rsatilgan].</div>
+<div class="open-block">
+<div class="sub">a) topshiriq</div>
+<div class="sub">b) topshiriq</div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">42</span>42. ABCD kvadrat ichidan P nuqta olingan. Agar AP = 1, BP = 5, PC = 7 bo’lsa:
+a) PD kesma uzunligini toping.
+b) Kvadratning yuzini toping. [Rasm tavsifi: Tekislikda standart ABCD kvadrati chizilgan. Kvadratning ichki qismida ixtiyoriy P nuqta tanlangan. Bu P nuqtadan kvadratning to'rtta uchigacha to'g'ri chiziqli kesmalar o'tkazilgan: AP kesmasi uzunligi 1, BP kesmasi uzunligi 5 va PC kesmasi uzunligi 7 ekanligi chizmadagi tegishli chiziqlar yonida raqamlar bilan ko'rsatilgan. P nuqtadan D uchigacha bo'lgan PD kesmasi ham tutashtirilgan bo'lib, uning qiymatini topish talab etiladi].</div>
+<div class="open-block">
+<div class="sub">a) topshiriq</div>
+<div class="sub">b) topshiriq</div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">43</span>43. Rasmda ADFK parallelogram va EG:GC = 1:2, DE:EF = 2:3 bo‘lsin.
+a) EGBC ni toping.
+b) Agar S_ABC = 242 bo‘lsa, S_ADFK ni toping. [Rasm tavsifi: Chizmada gorizontal holatdagi yirik ADFK parallelogrami tasvirlangan. Parallelogramning yuqori DF tomonida E nuqta olingan bo'lib, u tomonni DE va EF qismlarga ajratadi. Parallelogram ichida kesishuvchi chiziqlar tizimi orqali yirik ABC uchburchagi hosil qilingan. AC chizig'ida G nuqta joylashgan bo'lib, u EG kesmasining davomi hisoblanadi va chizmada EG hamda GC kesmalarining nisbatlari o'zaro belgilangan. Murakkab geometrik chiziqlar parallelogram ichidagi turli uchburchaklar va to'rtburchaklar (masalan, EGBC shakli) yuzalarining nisbatini hisoblash uchun asos bo'lib xizmat qiladi].</div>
+<div class="open-block">
+<div class="sub">a) topshiriq</div>
+<div class="sub">b) topshiriq</div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">44</span>44. AB diametrli radiusi 3 ga teng bo'lgan sfera berilgan. C va D nuqtalar sferada joylashgan. DC qirrasi o’rtasidan E nuqta olindi. Sferaga eng katta hajmli ABCD piramida ichki chizilgan bo’lsa:
+a) Piramida hajmini toping.
+b) AE chiziq va asos tekisligi orasidagi burchak sinusini toping.</div>
+<div class="open-block">
+<div class="sub">a) topshiriq</div>
+<div class="sub">b) topshiriq</div>
+</div>
+</div>
+<div class="question">
+<div class="q-title"><span class="num">45</span>Silindr shaklidagi yog‘och hajmi V = 200\pi cm³ va yon sirtining yuzi S = 80\pi cm² ga teng. Usta uni eng katta hajmdagi shar shakliga keltirdi. (\pi\approx 3 deb olinsin):</div>
+<div class="open-block">
+<div class="sub">a) Kesib olingan shar sirtining yuzini toping.</div>
+<div class="sub">b) Silindrdan eng katta shar kesib olinganda qolgan yog‘och hajmini toping.</div>
+</div>
+</div>
+</div>
+<div class="footer">
+© 2026 Mock Test Generator — Barcha huquqlar himoyalangan
+</div>
+</div>
+</body>
+</html>
