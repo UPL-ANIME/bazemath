@@ -1,0 +1,572 @@
+{
+  "test_id": "mock_1791050022",
+  "created_at": 1791050022,
+  "questions": [
+    {
+      "num": 1,
+      "type": "abcd",
+      "text": "Hisoblang: \\( 99...99 \\) (bu yerda \\( 60 \\) ta \\( 9 \\) raqami bor) \\( + 99...99 \\) (bu yerda \\( 60 \\) ta \\( 9 \\) raqami bor).",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "\\( 199...998 \\) (Bu yerda \\( 58 \\) ta \\( 9 \\) raqami bor)",
+        "B": "\\( 199...998 \\) (Bu yerda \\( 59 \\) ta \\( 9 \\) raqami bor)",
+        "C": "\\( 188...888 \\) (Bu yerda \\( 58 \\) ta \\( 8 \\) raqami bor)",
+        "D": "\\( 188...888 \\) (Bu yerda \\( 59 \\) ta \\( 8 \\) raqami bor)"
+      }
+    },
+    {
+      "num": 2,
+      "type": "abcd",
+      "text": "Hisoblang. \\( (5,75 - 3\\frac{1}{4}) : 2\\frac{1}{2} - (\\frac{1}{2} - 2\\frac{1}{8}) \\)",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "2,625",
+        "B": "2,525",
+        "C": "2,725",
+        "D": "2,675"
+      }
+    },
+    {
+      "num": 3,
+      "type": "abcd",
+      "text": "Oralaridagi masofa 435 km boʻlgan P va Q shaharlaridan bir vaqtning o'zida bir-biriga qarab avtomobil va velosipedchi yoʻlga chiqdi. Velosipedchi yoʻlda 30 daqiqa dam olib avtomobil tomon yo'lni davom ettirdi. Avtomobil esa soatiga 60 km tezlik bilan, velosipedchi esa soatiga 30 km tezlik bilan harakatlandi. Ular uchrashgan paytda avtomobilning bosib o'tgan masofasini (km) toping.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "280",
+        "B": "300",
+        "C": "320",
+        "D": "340"
+      }
+    },
+    {
+      "num": 4,
+      "type": "abcd",
+      "text": "To'g'ri burchakli uchburchakning gipotenuzasi \\(2\\sqrt{13}\\) ga teng. Agar uning bir kateti \\(150\\%\\) ikkinchi kateti esa \\(25\\%\\) ga oshirilsa, hosil boʻlgan katetlar yig'indisi 17.5 ga teng bo'ladi. Uchburchakning yuzini toping.",
+      "image": "https://i.ibb.co/zTTdnD80/699cc81ffdeb.png",
+      "pic": "1",
+      "pic_about": "A right-angled triangle with vertices A, B, and C. The angle at vertex C is the right angle (90 degrees). The sides adjacent to the right angle are the legs (katets), denoted as AC and BC. The side opposite the right angle is the hypotenuse, denoted as AB. No additional elements or specific values are drawn, as the problem describes changes to the lengths of the legs and asks for the area based on these changes and the initial hypotenuse length.",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "14",
+        "D": "16"
+      }
+    },
+    {
+      "num": 5,
+      "type": "abcd",
+      "text": "Hisoblang.\\( (\\frac{1}{2})^{-3} \\cdot (2.4)^{-1} \\)",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "\\( 3\\frac{1}{3} \\)",
+        "B": "\\( 2\\frac{1}{3} \\)",
+        "C": "\\( 3\\frac{1}{2} \\)",
+        "D": "\\( 2\\frac{1}{2} \\)"
+      }
+    },
+    {
+      "num": 6,
+      "type": "abcd",
+      "text": "Hisoblang. \\(\\sqrt{\\frac{4444^2}{1234321}}\\) ",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      }
+    },
+    {
+      "num": 7,
+      "type": "abcd",
+      "text": "Hisoblang. \\( ⁶\\sqrt{5-\\sqrt{24}} \\cdot ³\\sqrt{\\sqrt{3}+\\sqrt{2}} + \\sqrt{4} \\cdot ³\\sqrt{1} \\)",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "\\(-3\\)",
+        "B": "\\(3\\)",
+        "C": "\\(-3\\sqrt{3}\\)",
+        "D": "\\(3\\sqrt{2}\\)"
+      }
+    },
+    {
+      "num": 8,
+      "type": "abcd",
+      "text": "Arifmetik progressiyada \\( a\\_\\{4\\} = 2a\\_\\{2\\} \\) va \\( a\\_\\{1\\} \\cdot a\\_\\{2\\} \\cdot a\\_\\{4\\} = 64 \\) bo'lsa, \\( S\\_\\{10\\} \\) ni toping.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "110",
+        "B": "100",
+        "C": "120",
+        "D": "130"
+      }
+    },
+    {
+      "num": 9,
+      "type": "abcd",
+      "text": "Kamayuvchi geometrik progressiyada \\( b_{1} + b_{2} + b_{3} = 14 \\) va \\( b_{1}^{2} + b_{2}^{2} + b_{3}^{2} = 84 \\) bo'lsa, dastlabki to'rtta hadi yig'indisini hisoblang.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "15",
+        "B": "\\( 15\\frac{1}{2} \\)",
+        "C": "\\( 14\\frac{3}{4} \\)",
+        "D": "\\( 16\\frac{1}{4} \\)"
+      }
+    },
+    {
+      "num": 10,
+      "type": "abcd",
+      "text": "Agar \\( \\frac{x}{y} = 5 \\) va \\( y \\neq -\\frac{3}{7} \\) bo'lsa, \\( \\frac{x+2y+3}{2x-3y+3} \\) ning qiymatini toping.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "\\( 1 \\)",
+        "B": "\\( \\frac{1}{2} \\)",
+        "C": "\\( \\frac{1}{3} \\)",
+        "D": "\\( \\frac{1}{4} \\)"
+      }
+    },
+    {
+      "num": 11,
+      "type": "abcd",
+      "text": "Soddalashtiring.\\\\[10pt]\\( \\frac{\\left( \\frac{1}{x} - \\frac{1}{y} + \\frac{1}{xy} \\right) \\left( x-y-1 \\right)}{\\frac{1}{x^2} + \\frac{1}{y^2} - \\frac{2}{xy} - \\frac{1}{(xy)^2}} \\)",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "\\( xy \\)",
+        "B": "\\( -xy \\)",
+        "C": "\\( \\frac{1}{xy} \\)",
+        "D": "\\( -\\frac{1}{xy} \\)"
+      }
+    },
+    {
+      "num": 12,
+      "type": "abcd",
+      "text": "Agar \\( \\tan \\alpha = \\frac{8}{15} \\) ( \\( 0 < \\alpha < \\frac{\\pi}{2} \\) ) va \\( p = \\sin \\alpha \\), \\( q = \\cos \\alpha \\), \\( r = \\tan \\alpha \\) bo'lsa, \\( p, q, r \\) larni o'sish tartibida joylashtiring.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "\\( p < q < r \\)",
+        "B": "\\( q < p < r \\)",
+        "C": "\\( r < p < q \\)",
+        "D": "\\( p < r < q \\)"
+      }
+    },
+    {
+      "num": 13,
+      "type": "abcd",
+      "text": "Agar \\( \\cos \\alpha + \\sqrt{3} \\sin \\beta = 0 \\) va \\( \\alpha + 2\\beta = 90^{\\circ} \\) bo'lsa, \\( |\\alpha - \\beta| \\) ning qiymatini toping.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "30°",
+        "B": "60°",
+        "C": "90°",
+        "D": "45°"
+      }
+    },
+    {
+      "num": 14,
+      "type": "abcd",
+      "text": "Tenglamaning haqiqiy ildizlari yig'indisini hisoblang.\\n\\( 9^{\\left(x^{2}+x\\right)} - 10 \\cdot 3^{\\left(x^{2}+x+1\\right)} + 81 = 0 \\)",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "\\( -2 \\)",
+        "B": "\\( 2 \\)",
+        "C": "\\( 0 \\)",
+        "D": "\\( -1 \\)"
+      }
+    },
+    {
+      "num": 15,
+      "type": "abcd",
+      "text": "Tenglamaning haqiqiy ildizlar ko'paytmasini toping. (Agar u bitta bo'lsa, shu ildizini toping). \\( \\frac{7}{2} - \\log_x(64) = \\log_4(5) \\cdot \\log_{25}(x) - \\frac{1}{4} \\cdot \\log_{\\sqrt{x}}(16) \\)",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "\\( 4^2 \\)",
+        "B": "\\( 4^3 \\)",
+        "C": "\\( 4^7 \\)",
+        "D": "\\( 4^4 \\)"
+      }
+    },
+    {
+      "num": 16,
+      "type": "abcd",
+      "text": "Tenglama nechta butun yechimga ega?\\(x^4 - \\left(\\frac{105!}{104! + 103!}\\right) x^2 + 400 = 0\\)",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "1 ta",
+        "B": "2 ta",
+        "C": "3 ta",
+        "D": "4 ta"
+      }
+    },
+    {
+      "num": 17,
+      "type": "abcd",
+      "text": "Tenglama nechta butun yechimga ega? \\( x^{4} - \\sqrt{|x| - 13} = 169^{2} \\)",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "1 ta",
+        "B": "2 ta",
+        "C": "3 ta",
+        "D": "4 ta"
+      }
+    },
+    {
+      "num": 18,
+      "type": "abcd",
+      "text": "Tengsizlik nechta butun yechimga ega? \\n \\( \\frac{x^{2} - 9|x| + 18}{x^{2} + 2x + 1} < 0 \\)",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "1 ta",
+        "B": "2 ta",
+        "C": "3 ta",
+        "D": "4 ta"
+      }
+    },
+    {
+      "num": 19,
+      "type": "abcd",
+      "text": "Tengsizlikni qanoatlantiruvchi butun sonlar nechta?\n\\( \\sqrt{x^{2} - 10x + 25} - 5 \\cdot \\sqrt{5 - x} - 6 < 0 \\)",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "35",
+        "B": "36",
+        "C": "37",
+        "D": "34"
+      }
+    },
+    {
+      "num": 20,
+      "type": "abcd",
+      "text": "Rasmda \\( f(x) = ax^{2} + bx + c \\) funksiya grafigi tasvirlangan. Parabola uchining koordinatalari \\( (4;6) \\) va Oy o'qini \\( (0;2) \\) nuqtada kesib o'tadi. \\( f(14) \\) ning qiymatini toping.",
+      "image": "https://i.ibb.co/PvLm4dxL/51533f62dc88.png",
+      "pic": "1",
+      "pic_about": "A Cartesian coordinate system is shown. A parabola is drawn with its branches directed downwards, and its vertex located in the first quadrant at the point (4; 6). The axis of symmetry of the parabola is the vertical line x=4. The parabola intersects the y-axis (ordinate axis) at the positive part, specifically at the point (0; 2). The graph is clearly labeled with coordinate axes, and it is evident that the parabola intersects the x-axis at two distinct points.",
+      "options": {
+        "A": "-19",
+        "B": "-21",
+        "C": "-17",
+        "D": "-23"
+      }
+    },
+    {
+      "num": 21,
+      "type": "abcd",
+      "text": "21. Integralni hisoblang.\n∫_{-1}^{1} (1 / (x^4 + x^2)) dx\nA) 2 - π/2\nB) -2 - π/2\nC) -2 + π/2\nD) 0",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "A) variant",
+        "B": "B) variant",
+        "C": "C) variant",
+        "D": "D) variant"
+      }
+    },
+    {
+      "num": 22,
+      "type": "abcd",
+      "text": "Agar \\( 2(5x+6)^{18} = D_{0}x^{18} + D_{1}x^{17} + D_{2}x^{16} + \\dots + D_{17}x + D_{18} \\) tenglik o'rinli bo'lsa, \\( 18 \\cdot 17 \\cdot D_{0} - 17 \\cdot 16 \\cdot D_{1} + 16 \\cdot 15 \\cdot D_{2} - \\dots + 2 \\cdot 1 \\cdot D_{16} \\) ni hisoblang.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "14850",
+        "B": "15300",
+        "C": "15750",
+        "D": "16200"
+      }
+    },
+    {
+      "num": 23,
+      "type": "abcd",
+      "text": "23. Aylananing vatari 8 ga teng, u 90° li yoyni tortib tursa, aylana radiusini toping.\nA) 4\nB) 2√2\nC) 4√2\nD) 8",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "A) variant",
+        "B": "B) variant",
+        "C": "C) variant",
+        "D": "D) variant"
+      }
+    },
+    {
+      "num": 24,
+      "type": "abcd",
+      "text": "Quyidagi grafiklardan nechtasi funksiya bo'ladi?",
+      "image": "https://i.ibb.co/MxNx5QFS/37fa43cd7696.png",
+      "pic": "1",
+      "pic_about": "A Cartesian coordinate system with labeled X and Y axes is provided. Four distinct curves, labeled 1, 2, 3, and 4, are drawn on this system.\n\nGraph 1: A vertical line segment. This segment starts at the point \\( (2, -2) \\) and ends at the point \\( (2, 2) \\). It lies entirely on the line \\( x=2 \\).\n\nGraph 2: A straight line passing through the origin \\( (0,0) \\). This line has a positive slope, for example, it represents the equation \\( y=x \\). It extends indefinitely in both directions, passing through the first and third quadrants.\n\nGraph 3: A parabola opening to the right. Its vertex is at the origin \\( (0,0) \\), and it is symmetric with respect to the X-axis. For example, it represents the equation \\( x=y^{2} \\). It passes through points like \\( (1,1) \\), \\( (1,-1) \\), \\( (4,2) \\), \\( (4,-2) \\).\n\nGraph 4: A cubic function curve. This curve passes through the origin \\( (0,0) \\) and exhibits a typical 'S' shape of a cubic function, for example, \\( y=x^{3} \\). It increases from bottom-left to top-right, passing through the first and third quadrants, such as points \\( (1,1) \\) and \\( (-1,-1) \\).",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "hammasi"
+      }
+    },
+    {
+      "num": 25,
+      "type": "abcd",
+      "text": "ABC to'g'ri burchakli uchburchakning, B to'g'ri burchak bissektrisasi AC gipotenuzani \\(\\sqrt{10}\\) va \\(2\\sqrt{10}\\) kesmalarga ajratsa, ABC to'g'ri burchakli uchburchak yuzini toping.",
+      "image": "https://i.ibb.co/mFD75nNb/758cea8f652c.png",
+      "pic": "1",
+      "pic_about": "A right-angled triangle ABC. The vertex B is the right angle (90 degrees). The hypotenuse of the triangle is the side AC. An angle bisector, BD, is drawn from the vertex B to the hypotenuse AC, where D is a point on the segment AC. The bisector BD divides the hypotenuse AC into two segments: AD and DC. The length of segment AD is \\(\\sqrt{10}\\). The length of segment DC is \\(2\\sqrt{10}\\). The triangle can be visualized with B at the origin (0,0) of a Cartesian coordinate system, A on the positive y-axis, and C on the positive x-axis.",
+      "options": {
+        "A": "15",
+        "B": "20",
+        "C": "18",
+        "D": "25"
+      }
+    },
+    {
+      "num": 26,
+      "type": "abcd",
+      "text": "ABC uchburchakning A va B uchlaridan AD va BE bissektrisalar tushirildi. BE va AD bissektrisalar K nuqtada kesishadi. Agar AB = 10, AE = 6 va EC = 9 bo'lsa, KDCE to'rtburchak yuzini toping.",
+      "image": "https://i.ibb.co/62pzzXL/1065afe02ae0.png",
+      "pic": "1",
+      "pic_about": "A triangle ABC is drawn with vertex A at the top, B at the bottom-left, and C at the bottom-right. An angle bisector AD is drawn from vertex A to the side BC, intersecting BC at point D. The angle at A is divided into two equal angles by AD. An angle bisector BE is drawn from vertex B to the side AC, intersecting AC at point E. The angle at B is divided into two equal angles by BE. The two bisectors AD and BE intersect at an interior point K within the triangle. The lengths of the segments are indicated as follows: The side AB has a length of 10 units. The segment AE (part of AC) has a length of 6 units. The segment EC (the remaining part of AC) has a length of 9 units. This implies AC = AE + EC = 6 + 9 = 15 units. The quadrilateral KDCE is formed by the segments KD, DC, CE, and EK. The area of this quadrilateral is to be found.",
+      "options": {
+        "A": "$\\frac{45\\sqrt{10}}{2}$",
+        "B": "$\\frac{45\\sqrt{10}}{4}$",
+        "C": "$30\\sqrt{10}$",
+        "D": "$20\\sqrt{10}$"
+      }
+    },
+    {
+      "num": 27,
+      "type": "abcd",
+      "text": "ABCD trapetsiyaning BC va AD asoslari mos ravishda \\( 8 \\) va \\( 28 \\) ga, AB va CD yon tomonlari esa mos ravishda \\( 12 \\) va \\( 16 \\) ga teng bo'lsa, ABCD trapetsiya yuzini toping.",
+      "image": "https://i.ibb.co/zTRC9M2x/60689864459f.png",
+      "pic": "1",
+      "pic_about": "A standard trapezoid ABCD is depicted. The top base BC has length 8. The bottom base AD has length 28. The left non-parallel side AB has length 12. The right non-parallel side CD has length 16. No heights or other auxiliary lines are drawn, but the side lengths are fully provided for geometric calculation.",
+      "options": {
+        "A": "\\( 172\\frac{4}{5} \\)",
+        "B": "\\( 173\\frac{4}{5} \\)",
+        "C": "\\( 171\\frac{4}{5} \\)",
+        "D": "\\( 170\\frac{4}{5} \\)"
+      }
+    },
+    {
+      "num": 28,
+      "type": "abcd",
+      "text": "Muntazam \\( n \\) burchakning bir tomoni va shu tomon bilan umumiy uchga ega bo'lgan eng qisqa diagonali orasidagi burchak \\( 22.5^\\circ \\) ga teng bo'lsa, muntazam \\( n \\) burchakning nechta tomoni bor?",
+      "image": "https://i.ibb.co/g1wmSHK/f7f63e28452a.png",
+      "pic": "1",
+      "pic_about": "Draw a regular n-sided polygon. Label its vertices consecutively as V_1, V_2, V_3, ..., V_n in counter-clockwise order. Highlight the side V_1V_2. From vertex V_1, draw the diagonal V_1V_3. This diagonal connects V_1 to the vertex two positions away, making it the shortest diagonal emanating from V_1. Mark the angle between the side V_1V_2 and the diagonal V_1V_3 (which is angle V_2V_1V_3) as 22.5 degrees.",
+      "options": {
+        "A": "10",
+        "B": "12",
+        "C": "8",
+        "D": "16"
+      }
+    },
+    {
+      "num": 29,
+      "type": "abcd",
+      "text": "ABC uchburchak dekart koordinatalar sistemasiga joylashtirildi. Uchburchak uchlarining koordinatalari A(2;1), B(6;3), C(5;5) ga teng bo'lsa, bunda AL bissektrisa uzunligini toping.",
+      "image": "https://i.ibb.co/5hB40H1N/399351701287.png",
+      "pic": "1",
+      "pic_about": "A Cartesian coordinate system is shown with an ABC triangle. The vertices of the triangle are plotted: A is at (2;1), B is at (6;3), and C is at (5;5). A line segment AL is drawn from vertex A to the side BC, where L is a point on BC. AL is depicted as the angle bisector of angle A, indicated by arcs or markings on the two angles formed by AL.",
+      "options": {
+        "A": "\\sqrt{200-80\\sqrt{5}}",
+        "B": "\\sqrt{200-60\\sqrt{5}}",
+        "C": "\\sqrt{180-80\\sqrt{5}}",
+        "D": "\\sqrt{220-80\\sqrt{5}}"
+      }
+    },
+    {
+      "num": 30,
+      "type": "abcd",
+      "text": "Muntazam uchburchakli piramidaning yon sirtining yuzi asosining yuzidan \\( \\sqrt{2} \\) marta katta bo'lsa, yon yog'i bilan asos tekisligi orasidagi burchak tangensini toping.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "\\( \\frac{1}{2} \\)",
+        "B": "\\( \\frac{1}{\\sqrt{3}} \\)",
+        "C": "\\( \\sqrt{3} \\)",
+        "D": "1"
+      }
+    },
+    {
+      "num": 31,
+      "type": "abcd",
+      "text": "A = {48 ning natural bo'luvchilari}, B = {80 ning natural bo'luvchilari} bo'lsa, \\( A \\cap B \\) ning qism to'plamlar sonini toping.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "16",
+        "B": "32",
+        "C": "64",
+        "D": "128"
+      }
+    },
+    {
+      "num": 32,
+      "type": "abcd",
+      "text": "Raqamlar yig'indisi 6 ga teng bo'lgan uch xonali sonlar qog'ozchalarga yozilgan. Bulardan tanlangan son toq son bo'lish ehtimolligini toping.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "\\frac{3}{7}",
+        "B": "\\frac{4}{7}",
+        "C": "\\frac{2}{7}",
+        "D": "\\frac{5}{7}"
+      }
+    },
+    {
+      "num": 33,
+      "type": "abcdef_group",
+      "sub33": "Rasmda balandligi asosining diametriga teng bo'lgan to'g'ri aylanma konus ichiga eng katta hajmli silindr ichki chizilgan holat ko'rsatilgan. Konusning balandligi \\( H \\) va asosi radiusi \\( R \\) bo'lsin. Silindrning balandligi \\( h \\) va asosi radiusi \\( r \\) bo'lsin. Silindr balandligini konus balandligiga nisbatini toping.",
+      "sub34": "Rasmda balandligi asosining diametriga teng bo'lgan to'g'ri aylanma konus ichiga eng katta hajmli silindr ichki chizilgan holat ko'rsatilgan. Konusning balandligi \\( H \\) va asosi radiusi \\( R \\) bo'lsin. Silindrning balandligi \\( h \\) va asosi radiusi \\( r \\) bo'lsin. Silindr asosining radiusini konus asosi radiusiga nisbatini toping.",
+      "sub35": "Rasmda balandligi asosining diametriga teng bo'lgan to'g'ri aylanma konus ichiga eng katta hajmli silindr ichki chizilgan holat ko'rsatilgan. Konusning balandligi \\( H \\) va asosi radiusi \\( R \\) bo'lsin. Silindrning balandligi \\( h \\) va asosi radiusi \\( r \\) bo'lsin. Silindr asosining radiusini silindr balandligiga nisbatini toping.",
+      "image": "https://i.ibb.co/fYq3dhmT/6c5c839d23fb.png",
+      "pic": "1",
+      "pic_about": "A standard vertically oriented right circular cone is shown. Its apex is pointing upwards. The cone has a height denoted by H and a base radius denoted by R. The specific condition for this cone is that its height H is equal to its base diameter, i.e., H = 2R. A right circular cylinder of maximum volume is inscribed within this cone. The cylinder's bottom base is concentric with and lies on the cone's bottom base. The cylinder's top circular edge touches the cone's slant surface. Let the cylinder's height be denoted by h and its base radius by r.",
+      "options": {
+        "A": "\\( \\frac{1}{3} \\)",
+        "B": "\\( \\frac{2}{3} \\)",
+        "C": "\\( 1 \\)",
+        "D": "\\( \\frac{3}{4} \\)",
+        "E": "\\( \\frac{2}{9} \\)",
+        "F": "\\( \\frac{4}{9} \\)"
+      }
+    },
+    {
+      "num": 36,
+      "type": "open",
+      "text": "Quyidagi tenglamalar sistemasini yeching:\n\n\\[\\begin{cases}\nx^{2} + xy + y^{2} = 7 \\\\\n2x^{2} - xy + 2y^{2} = 14\n\\end{cases}\\]",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "sub_a": "a) Tenglamalar sistemasi nechta yechimga ega?",
+      "sub_b": "b) Barcha yechimlar orasidan \\(x+y\\) ning eng katta qiymatini toping."
+    },
+    {
+      "num": 37,
+      "type": "open",
+      "text": "37. Tenglamani yeching.\nsin^3(x) + sin^3(2x) + sin^3(3x) = (sin(x) + sin(2x) + sin(3x))^3\na) Tenglamaning eng kichik musbat ildizini toping.\nb) Tenglama [-π; π] oraliqda nechta ildizga ega?",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "sub_a": "a) topshiriq",
+      "sub_b": "b) topshiriq"
+    },
+    {
+      "num": 38,
+      "type": "open",
+      "text": "$f(x) = \\frac{ax+b}{cx+d}$ funksiya Ox o'qini $(2; 0)$ nuqtada kesib o'tadi. Agar $f(x)$ funksiyaning qiymatlar sohasi $E(y) = (-\\infty; -3) \\cup (-3; \\infty)$ va $f(x) = f^{-1}(x)$ bo'lsa:",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "sub_a": "a) $f(x)$ ning aniqlanish sohasiga tegishli bo'lmagan sonni toping.",
+      "sub_b": "b) $f^{-1}(-6)$ ning qiymatini toping."
+    },
+    {
+      "num": 39,
+      "type": "open",
+      "text": "\\( f(x) = x^{2} - 6x \\) kvadrat funksiya va \\( x^{2} - 6x + y^{2} + 8 = 0 \\) aylana tenglamasi berilgan.",
+      "image": "https://i.ibb.co/zWFn3g3n/d561280e0f28.png",
+      "pic": "1",
+      "pic_about": "A Cartesian coordinate system is shown. A parabola representing the function \\( y = x^{2} - 6x \\) is drawn. Its vertex, labeled V, is located at \\( (3, -9) \\) in the fourth quadrant. The parabola opens upwards and is symmetric about the vertical line \\( x = 3 \\). A circle is drawn with its center, labeled C, at \\( (3, 0) \\) on the positive y-axis and a radius of \\( 1 \\) unit. The circle is centered on the parabola's axis of symmetry \\( x = 3 \\). Its highest point is \\( (3, 1) \\) and its lowest point is \\( (3, -1) \\). A straight line segment, labeled \\( d_{1} \\), connects the parabola's vertex V \\( (3, -9) \\) to the circle's center C \\( (3, 0) \\). This segment lies along the axis of symmetry \\( x = 3 \\). Another straight line segment, labeled \\( d_{2} \\), represents the shortest distance from the parabola to the circle. This segment connects the parabola's vertex V \\( (3, -9) \\) to the lowest point of the circle on the axis of symmetry, which is \\( (3, -1) \\). The segment \\( d_{2} \\) is a part of the segment \\( d_{1} \\), specifically the portion from \\( (3, -9) \\) to \\( (3, -1) \\).",
+      "sub_a": "a) Aylana markazi va parabola uchi orasidagi masofani \\( d_{1} \\) toping.",
+      "sub_b": "b) Paraboladan aylangacha eng qisqa masofa \\( d_{2} \\) ni toping."
+    },
+    {
+      "num": 40,
+      "type": "open",
+      "text": "\\( f(x) = 3x^{2} - 6x \\) va \\( g(x) = -x^{2} + px + q \\) funksiyalar kesishishidan hosil bo'lgan soha yuzi \\( \\frac{16}{3} \\) ga teng. Agar \\( x = 1 \\) to'g'ri chiziq chegaralangan sohani teng ikkiga ajratsa:",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "sub_a": "a) \\( f(x) \\) va \\( g(x) \\) funksiyalar kesishish nuqtalari absissalari yig'indisini toping.",
+      "sub_b": "b) \\( p \\cdot q \\) ning qiymatini toping."
+    },
+    {
+      "num": 41,
+      "type": "open",
+      "text": "41. ABC uchburchakka aylana ichki chizilgan. ABC uchburchakning A uchidan AD bissektrisa o’tkazildi. BC tomoniga parallel va aylana markazidan o’tuvchi EF kesma o’tkazilgan. Agar BC = 30, EB = 8 va FC = 12 bo’lsa:\na) DC kesma uzunligini toping.\nb) AB va AC tomonlari ayirmasi modulini toping. [Rasm tavsifi: Geometrik chizmada ichki chizilgan aylanaga ega yirik ABC uchburchagi tasvirlangan. Aylananing markazi O nuqta deb belgilangan. O nuqtadan o'tuvchi va uchburchakning pastki BC asosiga parallel bo'lgan EF kesmasi o'tkazilgan (bunda E nuqta AB tomonda, F nuqta esa AC tomonda yotadi). Chizmada EB kesmasi yoniga 8 raqami va FC kesmasi yoniga 12 raqami yozilgan. Shuningdek, A uchidan chiqib BC tomonini D nuqtada kesib o'tuvchi AD bissektrisasi chizilgan va u ham ichki chizilgan aylananing markazi O nuqtadan o'tishi ko'rsatilgan].",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "sub_a": "a) topshiriq",
+      "sub_b": "b) topshiriq"
+    },
+    {
+      "num": 42,
+      "type": "open",
+      "text": "42. ABCD kvadrat ichidan P nuqta olingan. Agar AP = 1, BP = 5, PC = 7 bo’lsa:\na) PD kesma uzunligini toping.\nb) Kvadratning yuzini toping. [Rasm tavsifi: Tekislikda standart ABCD kvadrati chizilgan. Kvadratning ichki qismida ixtiyoriy P nuqta tanlangan. Bu P nuqtadan kvadratning to'rtta uchigacha to'g'ri chiziqli kesmalar o'tkazilgan: AP kesmasi uzunligi 1, BP kesmasi uzunligi 5 va PC kesmasi uzunligi 7 ekanligi chizmadagi tegishli chiziqlar yonida raqamlar bilan ko'rsatilgan. P nuqtadan D uchigacha bo'lgan PD kesmasi ham tutashtirilgan bo'lib, uning qiymatini topish talab etiladi].",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "sub_a": "a) topshiriq",
+      "sub_b": "b) topshiriq"
+    },
+    {
+      "num": 43,
+      "type": "open",
+      "text": "43. Rasmda ADFK parallelogram va EG:GC = 1:2, DE:EF = 2:3 bo‘lsin.\na) EGBC ni toping.\nb) Agar S_ABC = 242 bo‘lsa, S_ADFK ni toping. [Rasm tavsifi: Chizmada gorizontal holatdagi yirik ADFK parallelogrami tasvirlangan. Parallelogramning yuqori DF tomonida E nuqta olingan bo'lib, u tomonni DE va EF qismlarga ajratadi. Parallelogram ichida kesishuvchi chiziqlar tizimi orqali yirik ABC uchburchagi hosil qilingan. AC chizig'ida G nuqta joylashgan bo'lib, u EG kesmasining davomi hisoblanadi va chizmada EG hamda GC kesmalarining nisbatlari o'zaro belgilangan. Murakkab geometrik chiziqlar parallelogram ichidagi turli uchburchaklar va to'rtburchaklar (masalan, EGBC shakli) yuzalarining nisbatini hisoblash uchun asos bo'lib xizmat qiladi].",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "sub_a": "a) topshiriq",
+      "sub_b": "b) topshiriq"
+    },
+    {
+      "num": 44,
+      "type": "open",
+      "text": "Radiusi \\( R=3 \\) ga teng bo'lgan sfera berilgan. A va B nuqtalar sferaning diametral qarama-qarshi nuqtalari. Sferaga eng katta hajmli ichki chizilgan o'ng doiraviy silindrni ko'rib chiqing. Silindrning o'qi AB diametr bo'ylab joylashgan.",
+      "image": "https://i.ibb.co/7JWxsqyf/7cc346910456.png",
+      "pic": "1",
+      "pic_about": "A sphere with center O at the origin (0,0,0) and radius R=3. Two diametrically opposite points A and B are on the sphere's surface, located on the z-axis: A at (0,0,3) and B at (0,0,-3). A right circular cylinder is inscribed within the sphere. The cylinder's axis coincides with the z-axis (AB). The cylinder has maximum volume. Its height is h and its radius is r. The upper base of the cylinder is a circle with center O1 at (0,0,h/2) and radius r, lying in the plane z=h/2. The lower base is a circle with center O2 at (0,0,-h/2) and radius r, lying in the plane z=-h/2. On the circumference of the upper base, there are two points C and D, forming a chord CD of length \\sqrt{12}. M is the midpoint of this chord CD. M lies in the plane z=h/2.",
+      "sub_a": "a) Silindrning hajmini toping.",
+      "sub_b": "b) Silindrning yuqori asos aylanasi ustida C va D nuqtalar olingan bo'lib, ular orasidagi masofa \\( \\sqrt{12} \\) ga teng. CD kesmaning o'rtasi M bo'lsa, A nuqtadan M nuqtagacha bo'lgan masofani toping."
+    },
+    {
+      "num": 45,
+      "type": "open",
+      "text": "45. Silindr shaklidagi yog‘och hajmi V = 162π cm³ va yon sirti S = 72π cm² ga teng. Usta uni yo‘nib shar shakliga keltirdi. Sharning hajmi eng katta bo‘lsin. (π ≈ 3 deb olinsin):\na) Kesib olingan shar sirtining yuzini toping.\nb) Silindrdan eng katta shar kesib olinganda chiqindi hajmini toping.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "sub_a": "a) topshiriq",
+      "sub_b": "b) topshiriq"
+    }
+  ]
+}
