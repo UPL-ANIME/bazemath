@@ -1,0 +1,572 @@
+{
+  "test_id": "mock_1793819513",
+  "created_at": 1793819513,
+  "questions": [
+    {
+      "num": 1,
+      "type": "abcd",
+      "text": "444...444 (30 ta 4) + 777...777 (30 ta 7) ni hisoblang.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "1222...2221 / 29 (29 ta)",
+        "B": "1222...2221 / 30 (30 ta)",
+        "C": "2222...2221 / 29 (29 ta)",
+        "D": "2222...2221 / 30 (30 ta)"
+      }
+    },
+    {
+      "num": 2,
+      "type": "abcd",
+      "text": "\\((5_3/4-2_5/12): (3_1/2-(2/3-1_1/6))\\) ifodaning qiymatini hisoblang.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "0,833",
+        "B": "0,842",
+        "C": "0,823",
+        "D": "0,815"
+      }
+    },
+    {
+      "num": 3,
+      "type": "abcd",
+      "text": "Oralaridagi masofa 310 km boʻlgan E va F shaharlaridan bir vaqtning o'zida bir-biriga qarab avtomobildan va velosipedchi yo‘lda chiqdi. Velosipedchi yo‘lda 15 daqiqa dam olib, keyin avtomobildan tomon yo‘lni davom ettirdi. Avtomobil soatiga 50 km tezlik bilan, velosipedchi esa soatiga 20 km tezlik bilan harakatlandi. Ular uchrashgan paytda avtomobilning bosib o'tgan masofasini (km) toping.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "200",
+        "B": "225",
+        "C": "240",
+        "D": "260"
+      }
+    },
+    {
+      "num": 4,
+      "type": "abcd",
+      "text": "4. To'g'ri burchakli uchburchakning gipotenuzasi 3√5 ga teng. Agar uning bir kateti 133_1/3% ikkinchi kateti esa 16_2/3% ga oshirilsa, hosil boʻIgan katetlar yig'indisi 14 ga teng bo'ladi. Uchburchakning yuzini toping.\nA) 9\nB) 12\nC) 8\nD) 15",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "A) variant",
+        "B": "B) variant",
+        "C": "C) variant",
+        "D": "D) variant"
+      }
+    },
+    {
+      "num": 5,
+      "type": "abcd",
+      "text": "Hisoblang. \\( \\left(\\frac{5}{4}\\right)^{-2} \\times (0.32)^{-1} \\)",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "2",
+        "B": "1.5",
+        "C": "2.5",
+        "D": "3"
+      }
+    },
+    {
+      "num": 6,
+      "type": "abcd",
+      "text": "Hisoblang. \\(\\sqrt{\\frac{86415^{2}}{152399025}}\\)",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "1",
+        "B": "5",
+        "C": "7",
+        "D": "9"
+      }
+    },
+    {
+      "num": 7,
+      "type": "abcd",
+      "text": "Hisoblang. \\( \\sqrt[3]{2 + \\sqrt{5}} + \\sqrt[3]{2 - \\sqrt{5}} \\)",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "-1",
+        "B": "0",
+        "C": "1",
+        "D": "2"
+      }
+    },
+    {
+      "num": 8,
+      "type": "abcd",
+      "text": "Arifmetik progressiyada \\(a_{3}=a_{1}+a_{2}\\) va \\(a_{1}\\\\cdot a_{2}\\\\cdot a_{3}=750\\) bo'lsa, \\(S_{10}\\) ni toping.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "260",
+        "B": "270",
+        "C": "275",
+        "D": "280"
+      }
+    },
+    {
+      "num": 9,
+      "type": "abcd",
+      "text": "Kamayuvchi geometrik progressiyada \\( b_{1}+b_{2}+b_{3}=37 \\) va \\( b_{1}^{2}+b_{2}^{2}+b_{3}^{2}=481 \\) bo'lsa, dastlabki beshta hadi yig'indisini hisoblang.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "48_13/16",
+        "B": "48_7/8",
+        "C": "49_1/16",
+        "D": "47_15/16"
+      }
+    },
+    {
+      "num": 10,
+      "type": "abcd",
+      "text": "Berilgan \\( \\frac{x}{y} = -2 \\) va \\( y \\neq -1 \\) hamda \\( y \\neq \\frac{1}{3} \\) shartlari bajarilganda, \\( \\frac{2x - y - 5}{x - 2y - 4} \\) ifodasining qiymatini toping.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "5/4",
+        "B": "4/5",
+        "C": "1",
+        "D": "-1"
+      }
+    },
+    {
+      "num": 11,
+      "type": "abcd",
+      "text": "Soddalashtiring. \\( \\frac{ \\frac{1}{a^{2}} + \\frac{1}{b^{2}} + \\frac{2}{ab} - \\frac{1}{a^{2}b^{2}} }{ (\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{ab})(a + b - 1) } \\)",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "1/(ab)",
+        "B": "ab",
+        "C": "a^{2}b^{2}",
+        "D": "1/(a^{2}b^{2})"
+      }
+    },
+    {
+      "num": 12,
+      "type": "abcd",
+      "text": "Agar \\( \\cos \\alpha = \\frac{4}{5} \\) (0 < \\alpha < \\pi/2) va \\( a = \\sin \\alpha \\), \\( b = \\tan \\alpha \\), \\( c = \\cot \\alpha \\) bo'lsa, a, b, c larni o'sish tartibida joylashtiring.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "a < b < c",
+        "B": "b < a < c",
+        "C": "c < a < b",
+        "D": "a < c < b"
+      }
+    },
+    {
+      "num": 13,
+      "type": "abcd",
+      "text": "13. Agar cos α + √3 * cos β = 0 va 2α + β = 180° bo'lsa, |α - β| ning qiymatini toping.\nA) 30°\nB) 60°\nC) 90°\nD) 45°",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "A) variant",
+        "B": "B) variant",
+        "C": "C) variant",
+        "D": "D) variant"
+      }
+    },
+    {
+      "num": 14,
+      "type": "abcd",
+      "text": "14. Tenglamaning haqiqiy ildizlari yig'indisini hisoblang.\n4^(x^2-x) - 17 * 2^(x^2-x+2) + 256 = 0\nA) 2\nB) -2\nC) 0\nD) 1",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "A) variant",
+        "B": "B) variant",
+        "C": "C) variant",
+        "D": "D) variant"
+      }
+    },
+    {
+      "num": 15,
+      "type": "abcd",
+      "text": "15. Tenglamaning haqiqiy ildizlar ko'paytmasini toping. (Agar u bitta bo'lsa, shu ildizini toping).\n2/3 - log_x(3) = log_3(2) * log_32(x) - 2/5 * log_√x(3)\nA) ³√3\nB) 9³√3\nC) 27³√3\nD) 27",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "A) variant",
+        "B": "B) variant",
+        "C": "C) variant",
+        "D": "D) variant"
+      }
+    },
+    {
+      "num": 16,
+      "type": "abcd",
+      "text": "16. Tenglama nechta butun yechimga ega?\nx^4 - (2027! / (2026! + 2025!)) * x^2 + 2025 = 0\nA) 1 ta\nB) 2 ta\nC) 3 ta\nD) 4 ta",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "A) variant",
+        "B": "B) variant",
+        "C": "C) variant",
+        "D": "D) variant"
+      }
+    },
+    {
+      "num": 17,
+      "type": "abcd",
+      "text": "17. Tenglama nechta butun yechimga ega?\nx^4 - √(|x| - 45) = 2025^2\nA) 1 ta\nB) 2 ta\nC) 3 ta\nD) 4 ta",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "A) variant",
+        "B": "B) variant",
+        "C": "C) variant",
+        "D": "D) variant"
+      }
+    },
+    {
+      "num": 18,
+      "type": "abcd",
+      "text": "Quyidagi tengsizlik nechta butun yechimga ega? \\frac{x^{2} - 6|x| + 8}{x^{2} - 2x + 1} < 0",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "0 ta",
+        "B": "1 ta",
+        "C": "2 ta",
+        "D": "3 ta"
+      }
+    },
+    {
+      "num": 19,
+      "type": "abcd",
+      "text": "19. Tengsizlikni qanatlantiruvchi butun sonlar nechta?\n√(x^2 - 4x + 4) - 5 * √(2 - x) - 6 < 0\nA) 35\nB) 36\nC) 37\nD) 34",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "A) variant",
+        "B": "B) variant",
+        "C": "C) variant",
+        "D": "D) variant"
+      }
+    },
+    {
+      "num": 20,
+      "type": "abcd",
+      "text": "Rasmda f(x)=ax^{2}+bx+c funksiyasining grafigi tasvirlangan. Parabola uchining koordinatalari \\( (-2;7) \\) va Oy o'qini \\( (0; 4\\\\frac{2}{5}) \\) nuqtada kesib o'tadi. f(18) ning qiymatini toping.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "-253",
+        "B": "-250",
+        "C": "-260",
+        "D": "-240"
+      }
+    },
+    {
+      "num": 21,
+      "type": "abcd",
+      "text": "21. Integralni hisoblang.\n∫_{-1}^{1} (1 / (x^4 + x^2)) dx\nA) 2 - π/2\nB) -2 - π/2\nC) -2 + π/2\nD) 0",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "A) variant",
+        "B": "B) variant",
+        "C": "C) variant",
+        "D": "D) variant"
+      }
+    },
+    {
+      "num": 22,
+      "type": "abcd",
+      "text": "Agar \\(5(2x - 1)^{15} = D_{0}x^{15} + D_{1}x^{14} + \\dots + D_{15}\\) teng bo'lsa, \\(15\\cdot14 D_{0} + 14\\cdot13 D_{1} + \\dots + 2\\cdot1 D_{13} + D_{14}\\) ni hisoblang.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "4350",
+        "B": "4200",
+        "C": "4500",
+        "D": "4355"
+      }
+    },
+    {
+      "num": 23,
+      "type": "abcd",
+      "text": "23. Aylananing vatari 8 ga teng, u 90° li yoyni tortib tursa, aylana radiusini toping.\nA) 4\nB) 2√2\nC) 4√2\nD) 8",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "A) variant",
+        "B": "B) variant",
+        "C": "C) variant",
+        "D": "D) variant"
+      }
+    },
+    {
+      "num": 24,
+      "type": "abcd",
+      "text": "Quyidagi to'rtta chiziqni tasavvur qiling. 1‑grafikda markazida (0,0) bo‘lgan, radiusi 3 birlik bo‘lgan doira chizilgan; 2‑grafikda y = x^{2} tenglamasiga mos, Oy o‘qiga simmetrik bo‘lgan, yuqoriga ochilgan parabola tasvirlangan; 3‑grafikda x = y^{2} tenglamasiga mos, Ox o‘qiga nisbatan yotqizilgan, o‘ngga ochilgan parabola ko‘rsatilgan; 4‑grafikda y = 2\\sin x funksiyasining grafigi, ya'ni sinusoidal to‘lqin shaklidagi egri chiziq chizilgan. Vertikal chiziq testi (har bir x qiymati uchun bir dona y qiymati) bo‘yicha nechta chiziq funksiya bo‘ladi?",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "hammasi"
+      }
+    },
+    {
+      "num": 25,
+      "type": "abcd",
+      "text": "ABC to'g'ri burchakli uchburchakda, B to'g'ri burchak bissektrisasi AC gipotenuzani \\sqrt{10} va 2\\sqrt{10} kesmalarga ajratsa, ABC uchburchak yuzini toping.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "12",
+        "B": "15",
+        "C": "18",
+        "D": "20"
+      }
+    },
+    {
+      "num": 26,
+      "type": "abcd",
+      "text": "26. ABC uchburchakning A va B uchlaridan AD va BE bissektrisalar tushirildi. BE va AD bissektrisalar K nuqtada kesishadi. Agar AB = 6, AE = 4 va EC = 8 bo'lsa, KDCE to'rtburchak yuzini toping. [Rasm tavsifi: Chizmada ixtiyoriy ABC uchburchagi tasvirlangan. A uchidan chiqib BC tomonini D nuqtada kesuvchi AD bissektrisasi (α burchaklar bilan belgilangan) va B uchidan chiqib AC tomonini E nuqtada kesuvchi BE bissektrisasi (β burchaklar bilan belgilangan) chizilgan. Ular uchburchak ichidagi K nuqtada kesishadi. Kesmalardan AB tomoni 6 ga, AE kesmasi 4 ga va EC kesmasi 8 ga tengligi chizmada raqamlar bilan ko'rsatilgan. Masalaning maqsadi hosil bo'lgan KDCE to'rtburchagining yuzini hisoblashdan iborat].\nA) 26√15 / 5\nB) 12√15 / 5\nC) 24√15 / 5\nD) 13√15 / 5",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "A) variant",
+        "B": "B) variant",
+        "C": "C) variant",
+        "D": "D) variant"
+      }
+    },
+    {
+      "num": 27,
+      "type": "abcd",
+      "text": "EFGH trapetsiyaning EF va GH asosi mos ravishda 9 sm va 21 sm, EB va FH yon tomonlari esa har ikkalasi ham 10 sm ga teng bo‘lsa, EFGH trapetsiyaning yuzini toping.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "120",
+        "B": "119",
+        "C": "121",
+        "D": "118"
+      }
+    },
+    {
+      "num": 28,
+      "type": "abcd",
+      "text": "28. Muntazam n burchakning eng kichik diagonallari orasidagi burchak 120° ga teng bo'lsa, muntazam n burchakning nechta tomoni bor.\nA) 10\nB) 12\nC) 8\nD) 16",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "A) variant",
+        "B": "B) variant",
+        "C": "C) variant",
+        "D": "D) variant"
+      }
+    },
+    {
+      "num": 29,
+      "type": "abcd",
+      "text": "29. ABC uchburchak dekart koordinatalar sistemasiga joylashtirildi. Uchburchak uchlarining koordinatalari A(1;3), B(5;1), C(4;4) ga teng bo'lsa, bunda AL bissektrisa uzunligini toping. [Rasm tavsifi: Dekart koordinatalar tekisligida joylashgan ABC uchburchagi grafigi berilgan. Uchburchakning uchlari koordinata nuqtalari bilan belgilangan: A uchi birinchi chorakda (1;3) nuqtada, B uchi (5;1) nuqtada va C uchi (4;4) nuqtada joylashgan. A uchidan chiqib, qarshisidagi BC tomonini L nuqtada kesib o'tuvchi AL bissektrisasi chizilgan bo'lib, A burchakning teng ikkiga bo'linganligi yoylar va shtrixlar bilan ko'rsatilgan].\nA) √(40-10√2)\nB) √(40-20√2)\nC) √(30-15√2)\nD) √(30-10√2)",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "A) variant",
+        "B": "B) variant",
+        "C": "C) variant",
+        "D": "D) variant"
+      }
+    },
+    {
+      "num": 30,
+      "type": "abcd",
+      "text": "Muntazam to'rtburchakli piramidaning to'liq sirtining yuzi asosining yuzidan 4 marta katta bo'lsa, yon yog'i bilan asos tekisligi orasidagi burchak tangensini toping.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "\\( \\\\frac{1}{2} \\)",
+        "B": "\\( \\\\sqrt{2} \\)",
+        "C": "\\( 2\\\\sqrt{2} \\)",
+        "D": "\\( \\\\sqrt{3} \\)"
+      }
+    },
+    {
+      "num": 31,
+      "type": "abcd",
+      "text": "A = {84 ning natural bo'luvchilari}, B = {126 ning natural bo'luvchilari} bo'lsa, A \\cap B ning qism to'plamlar sonini toping.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "64",
+        "B": "128",
+        "C": "256",
+        "D": "512"
+      }
+    },
+    {
+      "num": 32,
+      "type": "abcd",
+      "text": "Raqamlar yig'indisi \\(8\\) ga teng bo'lgan uch xonali sonlar qog'ozchalarga yozilgan. Bulardan tasodifiy tanlangan son \\(5\\) ga bo'linadigan bo'lish ehtimolligini toping.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "11/36",
+        "B": "5/18",
+        "C": "7/36",
+        "D": "13/36"
+      }
+    },
+    {
+      "num": 33,
+      "type": "abcdef_group",
+      "sub33": "Vertikal joylashgan konusning ichiga, pastki asosi konus asosi bilan bir tekislikda, yuqori asosi konus yon sirtiga tegadigan silindr chizilgan. Silindr asosining radiusi \\( r \\) ni konus asosi radiusi \\( R \\) ga nisbati \\( \\frac{r}{R} \\) ni toping.",
+      "sub34": "Yuqoridagi shartlarga asosan, silindr balandligi \\( h \\) ni konus balandligi \\( H \\) ga nisbati \\( \\frac{h}{H} \\) ni toping.",
+      "sub35": "Berilgan konus va unga ichki chizilgan silindr uchun, silindr hajmi \\( V_{cyl} \\) ni konus hajmi \\( V_{cone} \\) ga nisbati \\( \\frac{V_{cyl}}{V_{cone}} \\) ni hisoblang.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "options": {
+        "A": "1/3",
+        "B": "1/2",
+        "C": "2/3",
+        "D": "3/8",
+        "E": "3/4",
+        "F": "5/8"
+      }
+    },
+    {
+      "num": 36,
+      "type": "open",
+      "text": "36. Tenglamalar sistemasini yeching.\n{26x^2 + 42xy + 17y^2 = 10\n{10x^2 + 18xy + 8y^2 = 6\na) Tenglamalar sistemasi yechimi (x1; y1), (x2; y2),..., (xn; yn) bo’lsa, tenglamalar sistemasi nechta yechimga ega?\nb) xn + yn ning eng katta qiymatini toping.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "sub_a": "a) topshiriq",
+      "sub_b": "b) topshiriq"
+    },
+    {
+      "num": 37,
+      "type": "open",
+      "text": "37. Tenglamani yeching.\nsin^3(x) + sin^3(2x) + sin^3(3x) = (sin(x) + sin(2x) + sin(3x))^3\na) Tenglamaning eng kichik musbat ildizini toping.\nb) Tenglama [-π; π] oraliqda nechta ildizga ega?",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "sub_a": "a) topshiriq",
+      "sub_b": "b) topshiriq"
+    },
+    {
+      "num": 38,
+      "type": "open",
+      "text": "f(x)=\\frac{ax+b}{cx+d} funksiyasi (1; -1) nuqtadan o'tadi. Funksiya qiymatlar sohasi E(y)=(-\\infty; -2) \\cup (-2; \\infty) bo'lib, f(x)=f^{-1}(x) shartini ham qanoatlantiradi.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "sub_a": "a) f(x) ning aniqlanish sohasiga tegishli bo'lmagan sonni toping.",
+      "sub_b": "b) f^{-1}(6) ning qiymatini toping."
+    },
+    {
+      "num": 39,
+      "type": "open",
+      "text": "39. f(x) = x^2/8 - 3x/2 kvadrat funksiya va x^2 - 18x + y^2 - 12y + 97 = 0 aylana tenglamasi berilgan.\na) Aylana markazi va parabola uchi orasidagi masofani d1 toping.\nb) Paraboladan aylangacha eng qisqa masofa d2 ni toping. [Rasm tavsifi: Dekart koordinatalar sistemasida tarmoqlari yuqoriga qaragan, uchi to'rtinchi chorakda joylashgan f(x) = x^2/8 - 3x/2 funksiyasiga tegishli parabola tasvirlangan. Parabolaning teparoq qismida (birinchi chorakda) markazi (9; 6) bo'lgan va radiusi aniqlanishi kerak bo'lgan aylana chizilgan. Grafikda parabola uchidan aylana markazigacha bo'lgan masofa d1 to'g'ri chiziq kesmasi orqali, hamda parabolaning eng yaqin nuqtasidan aylananing chekka chizig'igacha bo'lgan eng qisqa masofa d2 kesma orqali yaqqol ko'rsatilgan].",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "sub_a": "a) topshiriq",
+      "sub_b": "b) topshiriq"
+    },
+    {
+      "num": 40,
+      "type": "open",
+      "text": "40. f(x) = -2x^2 + 4x va g(x) = x^2 + px + q funksiyalar kesishishidan hosil bo’lgan soha yuzi 32/27 ga teng. Agar x = 4/3 to’g’ri chiziq chegaralangan sohani teng ikkiga ajratsa:\na) f(x) va g(x) funksiyalar kesishish nuqtalari absissalari yig’indisini toping.\nb) p * q ning qiymatini toping.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "sub_a": "a) topshiriq",
+      "sub_b": "b) topshiriq"
+    },
+    {
+      "num": 41,
+      "type": "open",
+      "text": "ABC uchburchak ichiga aylanasi chizilgan. A nuqtadan AD bissektrisa BC ga D nuqtada kesiladi. O incenter orqali BC ga parallel EF kesma AB va AC ga kesiladi. BC = 36, EB = 6 va FC = 10 berilgan.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "sub_a": "a) DC kesma uzunligini toping.",
+      "sub_b": "b) AB va AC tomonlari farqining modulini toping."
+    },
+    {
+      "num": 42,
+      "type": "open",
+      "text": "42. ABCD kvadrat ichidan P nuqta olingan. Agar AP = 1, BP = 5, PC = 7 bo’lsa:\na) PD kesma uzunligini toping.\nb) Kvadratning yuzini toping. [Rasm tavsifi: Tekislikda standart ABCD kvadrati chizilgan. Kvadratning ichki qismida ixtiyoriy P nuqta tanlangan. Bu P nuqtadan kvadratning to'rtta uchigacha to'g'ri chiziqli kesmalar o'tkazilgan: AP kesmasi uzunligi 1, BP kesmasi uzunligi 5 va PC kesmasi uzunligi 7 ekanligi chizmadagi tegishli chiziqlar yonida raqamlar bilan ko'rsatilgan. P nuqtadan D uchigacha bo'lgan PD kesmasi ham tutashtirilgan bo'lib, uning qiymatini topish talab etiladi].",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "sub_a": "a) topshiriq",
+      "sub_b": "b) topshiriq"
+    },
+    {
+      "num": 43,
+      "type": "open",
+      "text": "Parallelogram ABCD ning A(0,0), B(8,0), C(10,6), D(2,6) nuqtalari berilgan. CD tomonida E nuqtasi shunday tanlanganki, CE:ED = 2:3. E nuqtasidan C ga qarab chiziq EC ning ichida G nuqtasi EG:GC = 1:2 nisbatda joylashgan. EGBC to'rtburchak (E, G, B, C) ning yuzasini toping. Agar \\(\\triangle ABC\\) ning yuzi 242 ga teng bo'lsa, parallelogram ABCD ning yuzasini toping.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "sub_a": "a) EGBC ning yuzasini hisoblang.",
+      "sub_b": "b) \\(S_{\\triangle ABC}=242\\) bo'lsa, parallelogram ABCD ning yuzasini toping."
+    },
+    {
+      "num": 44,
+      "type": "open",
+      "text": "44. AB diametrli radiusi 3 ga teng bo'lgan sfera berilgan. C va D nuqtalar sferada joylashgan. DC qirrasi o’rtasidan E nuqta olindi. Sferaga eng katta hajmli ABCD piramida ichki chizilgan bo’lsa:\na) Piramida hajmini toping.\nb) AE chiziq va asos tekisligi orasidagi burchak sinusini toping.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "sub_a": "a) topshiriq",
+      "sub_b": "b) topshiriq"
+    },
+    {
+      "num": 45,
+      "type": "open",
+      "text": "45. Silindr shaklidagi yog‘och hajmi V = 162π cm³ va yon sirti S = 72π cm² ga teng. Usta uni yo‘nib shar shakliga keltirdi. Sharning hajmi eng katta bo‘lsin. (π ≈ 3 deb olinsin):\na) Kesib olingan shar sirtining yuzini toping.\nb) Silindrdan eng katta shar kesib olinganda chiqindi hajmini toping.",
+      "image": "",
+      "pic": "0",
+      "pic_about": "",
+      "sub_a": "a) topshiriq",
+      "sub_b": "b) topshiriq"
+    }
+  ]
+}
